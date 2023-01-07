@@ -4,17 +4,18 @@
     padding: 0;
 }
 main{
-    height: 100vh;
+    height: 98vh;
+    width: 100%;
 }
 
 p{
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 1.125em;
     color: hsl(228, 12%, 48%);
 
 }
 h1{
-    font-size: 38px;
+    font-size: 2.375em;
     font-family: 'Fraunces';
 }
 
@@ -31,8 +32,8 @@ h1{
 }
 
 .perfume-card-photo, .perfume-card-photo img{
-    width:350px;
-    border-radius: 50px 0px 0px 50px;
+    width:21.875em;
+    border-radius: 3.125em 0em 0em 3.125em;
 }
 
 #perfume-card-category{
@@ -42,12 +43,12 @@ h1{
 
 .perfume-card{
     background-color: white;
-    width: 350px;
-    height: 524.97px;
-    border-radius: 0px 50px 50px 0px;
+    width: 21.875em;
+    height: 32.810625em;
+    border-radius: 0em 3.125em 3.125em 0em;
     display: flex;
     flex-wrap: wrap;
-    padding: 33px;
+    padding: 2.0625em;
 
 }
 
@@ -55,7 +56,7 @@ h1{
     display: inline-flex;
     flex-direction: row;
     font-family: 'Fraunces';
-    font-size: 38px;
+    font-size: 1.575em;
 }
 .perfume-card-prices h2{
     color:hsl(158, 36%, 37%);
@@ -68,11 +69,11 @@ h1{
     color: white;
     background-color: hsl(158, 36%, 37%);
     align-items: center;
-    padding: 0px 94px;
+    padding: 0em 5.875em;
     display: flex;
-    font-size: 16px;
+    font-size: 1em;
     border: none;
-    border-radius: 12px;
+    border-radius: 0.85em;
 }
 
 
